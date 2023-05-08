@@ -37,3 +37,4 @@ jobs:
           with:
             source: src/compas_bananas/ghpython/components
             target: src/compas_bananas/ghpython/ghuser
+            prefix: "(CB) "
