@@ -5,7 +5,3 @@ def polygon_area(vertices):
         j = (i + 1) % n
         area += vertices[i][0] * vertices[j][1] - vertices[j][0] * vertices[i][1]
     return abs(area / 2)
-
-
-if __name__ == "__main__":
-    a = polygon_area(polygon)
