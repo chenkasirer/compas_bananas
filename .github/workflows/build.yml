@@ -35,5 +35,5 @@ jobs:
             choco install ironpython --version=2.7.8.1
         - uses: compas-dev/compas-actions.ghpython_components@action_prefix
           with:
-            source: ghpython/components
-            target: ghpython/components/ghuser
+            source: src/compas_bananas/ghpython/components
+            target: src/compas_bananas/ghpython/ghuser
