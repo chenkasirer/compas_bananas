@@ -38,3 +38,8 @@ jobs:
             source: src/compas_bananas/ghpython/components
             target: src/compas_bananas/ghpython/ghuser
             prefix: "(CB) "
+
+        - uses: actions/upload-artifact@v2
+          with:
+            name: ghuser-components
+            path: src/compas_bananas/ghpython/ghuser
